@@ -1,9 +1,11 @@
-# $Id: Gnome2.pm,v 1.6 2003/12/01 09:53:14 jodrell Exp $
+# $Id: Gnome2.pm,v 1.7 2003/12/09 09:39:20 jodrell Exp $
 package Bundle::Gnome2;
 
 $VERSION = '0.03';
 
 __END__
+
+=pod
 
 =head1 NAME
 
@@ -40,6 +42,8 @@ Gnome2::Canvas			- Perl interface to the Gnome Canvas
 Gnome2::GConf			- Perl wrappers for the GConf configuration engine
 
 Gnome2::Print			- Perl wrappers for the Gnome Print utilities
+
+Gnome2::VFS			- Perl interface to the 2.x series of the GNOME VFS library
 
 Gnome2::Vte			- Perl interface to the VTE library
 
