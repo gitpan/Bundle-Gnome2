@@ -1,7 +1,7 @@
-# $Id: Gnome2.pm,v 1.9 2004/04/28 09:40:09 jodrell Exp $
+# $Id: Gnome2.pm,v 1.11 2004/09/12 15:45:48 jodrell Exp $
 package Bundle::Gnome2;
 
-$VERSION = '0.06';
+$VERSION = '0.07';
 
 __END__
 
@@ -21,6 +21,8 @@ ExtUtils::Depends		- Easily build XS extensions that depend on XS extensions
 
 ExtUtils::PkgConfig		- simplistic interface to pkg-config
 
+Locale::gettext			- message handling functions
+
 IO::Scalar			- IO:: interface for reading/writing a scalar
 
 Glib				- Perl wrappers for the GLib utility and Object libraries
@@ -29,9 +31,17 @@ Gtk2				- Perl interface to the 2.x series of the Gimp Toolkit library
 
 Gtk2::GladeXML			- Perl wrappers for the Gtk2::GladeXML utilities
 
+Gtk2::Html2			- HTML Viewer widget for Gtk2-Perl
+
+Gtk2::MozEmbed			- Perl interface to the Mozilla embedding widget
+
 Gtk2::PodViewer			- a Gtk2 widget for displaying Plain old Documentation (POD)
 
 Gtk2::TrayIcon			- Perl interface to the EggTrayIcon library
+
+Gtk2::TrayManager		- Perl bindings for EggTrayManager
+
+Gtk2::Ex::VolumeButton		- widget to control volume and similar values
 
 Gnome2::Canvas			- Perl interface to the Gnome Canvas
 
@@ -42,6 +52,8 @@ Gnome2				- Perl interface to the 2.x series of the GNOME libraries
 Gnome2::GConf			- Perl wrappers for the GConf configuration engine
 
 Gnome2::Print			- Perl wrappers for the Gnome Print utilities
+
+Gnome2::Rsvg			- Perl interface to the RSVG library
 
 Gnome2::Vte			- Perl interface to the VTE library
 
@@ -54,6 +66,9 @@ developing applications using the 2.x series of Gtk+ and Gnome. As well
 as the core toolkit libraries there are also extra widgets (like
 Gtk2::PodViewer) and bindings for libraries including gtkspell and
 libwnck.
+
+Please note that you must have the relevant C libraries and headers
+installed on your system before any of these modules can be installed.
 
 =head1 MISSING MODULES
 
