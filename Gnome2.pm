@@ -1,7 +1,7 @@
-# $Id: Gnome2.pm,v 1.7 2003/12/09 09:39:20 jodrell Exp $
+# $Id: Gnome2.pm,v 1.8 2003/12/14 14:02:08 jodrell Exp $
 package Bundle::Gnome2;
 
-$VERSION = '0.03';
+$VERSION = '0.05';
 
 __END__
 
@@ -31,8 +31,6 @@ Gtk2::GladeXML			- Perl wrappers for the Gtk2::GladeXML utilities
 
 Gtk2::PodViewer			- a Gtk2 widget for displaying Plain old Documentation (POD)
 
-Gtk2::Spell			- Bindings for GtkSpell with Gtk2
-
 Gtk2::TrayIcon			- Perl interface to the EggTrayIcon library
 
 Gnome2				- Perl interface to the 2.x series of the GNOME libraries
@@ -56,6 +54,22 @@ developing applications using the 2.x series of Gtk+ and Gnome. As well
 as the core toolkit libraries there are also extra widgets (like
 Gtk2::PodViewer) and bindings for libraries including gtkspell and
 libwnck.
+
+=head1 MISSING MODULES
+
+As of version 0.05, the Gtk2::Spell module has been removed. This is
+because Gtk2::Spell does not reliably build on all platforms (due to
+incompatibilities between pspell and aspell, and varying support for
+each among distributors. This does not make this module well-suited to
+an automated install system.
+
+See
+L<http://mail.gnome.org/archives/gtk-perl-list/2003-December/msg00060.html>
+for more information.
+
+It is hoped that bindings for gnome-spell will be implemented in the
+future. In the meantime, if you wish to use this module, you must
+install it manually.
 
 =head1 AUTHOR
 

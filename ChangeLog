@@ -1,3 +1,7 @@
+2003-12-14 14:02  jodrell
+
+	* Gnome2.pm: removed Gtk2::Spell. Updated version number (oops).
+
 2003-12-09 09:39  jodrell
 
 	* Gnome2.pm: added Gnome2::VFS.
