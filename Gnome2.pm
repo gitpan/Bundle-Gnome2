@@ -1,7 +1,7 @@
-# $Id: Gnome2.pm,v 1.11 2004/09/12 15:45:48 jodrell Exp $
+# $Id: Gnome2.pm,v 1.14 2005/03/09 14:42:55 jodrell Exp $
 package Bundle::Gnome2;
 
-$VERSION = '0.07';
+$VERSION = '0.08';
 
 __END__
 
@@ -31,23 +31,45 @@ Gtk2				- Perl interface to the 2.x series of the Gimp Toolkit library
 
 Gtk2::GladeXML			- Perl wrappers for the Gtk2::GladeXML utilities
 
-Gtk2::Html2			- HTML Viewer widget for Gtk2-Perl
-
 Gtk2::MozEmbed			- Perl interface to the Mozilla embedding widget
 
 Gtk2::PodViewer			- a Gtk2 widget for displaying Plain old Documentation (POD)
+
+Gtk2::Spell			- Bindings for GtkSpell with Gtk2
 
 Gtk2::TrayIcon			- Perl interface to the EggTrayIcon library
 
 Gtk2::TrayManager		- Perl bindings for EggTrayManager
 
+Gtk::CV				- a fast gtk+ image viewer modeled after xv
+
+Gtk2::Ex::Dialogs		- Useful tools for Gnome2/Gtk2 Perl GUI design.
+
+Gtk2::Ex::FormFactory		- Makes building complex GUI's easy
+
+Gtk2::Ex::RecordsFilter		- A high level widget to browse reasonably large amounts of relational data and select a subset of records.
+
+Gtk2::Ex::Simple::List		- A simple interface to Gtk2's complex MVC list widget
+
+Gtk2::Ex::Simple::Menu		- A simple interface to Gtk2's ItemFactory for creating application menus
+
+Gtk2::Ex::Simple::Tree		- A simple interface to Gtk2's complex MVC tree widget
+
+Gtk2::Ex::TreeMaker		- A high level widget to represent a set of relational records in a hierarchical spreadsheet kinda display.
+
+Gtk2::Ex::Utils			- Extra Gtk2 Utilities for working with Gnome2/Gtk2 in Perl.
+
 Gtk2::Ex::VolumeButton		- widget to control volume and similar values
+
+Gtk2Fu				- GTK2 Forked Ultimate, a powerful layer on top of Gtk2.
 
 Gnome2::Canvas			- Perl interface to the Gnome Canvas
 
 Gnome2::VFS			- Perl interface to the 2.x series of the GNOME VFS library
 
 Gnome2				- Perl interface to the 2.x series of the GNOME libraries
+
+Gnome2::Dia			- Perl interface to the DiaCanvas2 library
 
 Gnome2::GConf			- Perl wrappers for the GConf configuration engine
 
@@ -59,6 +81,8 @@ Gnome2::Vte			- Perl interface to the VTE library
 
 Gnome2::Wnck			- Perl interface to the Window Navigator Construction Kit
 
+X11::FreeDesktop::DesktopEntry	- Interface to Freedesktop.org .desktop files
+
 =head1 DESCRIPTION
 
 This module bundles together all the Perl libraries available for
@@ -67,24 +91,11 @@ as the core toolkit libraries there are also extra widgets (like
 Gtk2::PodViewer) and bindings for libraries including gtkspell and
 libwnck.
 
-Please note that you must have the relevant C libraries and headers
-installed on your system before any of these modules can be installed.
+=head1 IMPORTANT NOTE
 
-=head1 MISSING MODULES
-
-As of version 0.05, the Gtk2::Spell module has been removed. This is
-because Gtk2::Spell does not reliably build on all platforms (due to
-incompatibilities between pspell and aspell, and varying support for
-each among distributors). This does not make this module well-suited to
-an automated install system.
-
-See
-L<http://mail.gnome.org/archives/gtk-perl-list/2003-December/msg00060.html>
-for more information.
-
-It is hoped that bindings for gnome-spell will be implemented in the
-future. In the meantime, if you wish to use this module, you must
-install it manually.
+Almost all the modules in this bundle are wrappers around C libraries -
+naturally, you will have to have those libraries (and their development
+headers) installed I<before> you try to install this bundle.
 
 =head1 AUTHOR
 

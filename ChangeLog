@@ -1,3 +1,18 @@
+2005-03-09 14:42  jodrell
+
+	* Gnome2.pm: added Gnome2::Dia.
+
+2005-03-09 14:40  jodrell
+
+	* Gnome2.pm: removed Gtk2::Html2 which isn't in CPAN, apparently. 
+	added all the Gtk2::Ex:: modules.  put Gtk2::Spell back in since it
+	builds OK now.	added X11::FreeDesktop::DesktopEntry.
+
+2005-01-08 14:03  jodrell
+
+	* Gnome2.pm: removed note about gnome-spell; according to Torsten
+	it's a bonobo component.
+
 2004-09-12 16:45  jodrell
 
 	* Gnome2.pm: added Locale::gettext and Gnome2::Rsvg.
