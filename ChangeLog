@@ -1,0 +1,12 @@
+2003-10-21 16:37  jodrell
+
+	* Gnome2.pm: removed modules.
+
+2003-10-17 15:57  jodrell
+
+	* Gnome2.pm, MANIFEST, Makefile.PL, README: Initial revision
+
+2003-10-17 15:57  jodrell
+
+	* Gnome2.pm, MANIFEST, Makefile.PL, README: Initial import
+
