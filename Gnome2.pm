@@ -1,4 +1,4 @@
-# $Id: Gnome2.pm,v 1.2 2003/10/21 15:37:47 jodrell Exp $
+# $Id: Gnome2.pm,v 1.4 2003/11/10 01:07:05 jodrell Exp $
 package Bundle::Gnome2;
 
 $VERSION = '0.01';
@@ -15,6 +15,10 @@ C<perl -MCPAN -e 'install Bundle::Gnome2'>
 
 =head1 CONTENTS
 
+ExtUtils::Depends
+
+ExtUtils::PkgConfig
+
 Glib
 
 Gtk2
@@ -30,6 +34,8 @@ Gtk2::GladeXML
 Gtk2::PodViewer
 
 Gtk2::Spell
+
+IO::Scalar
 
 =head1 DESCRIPTION
 
