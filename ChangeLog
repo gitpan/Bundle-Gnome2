@@ -1,3 +1,11 @@
+2003-12-01 09:53  jodrell
+
+	* Gnome2.pm: updated version.
+
+2003-12-01 09:52  jodrell
+
+	* Gnome2.pm: added new modules.
+
 2003-11-10 01:07  jodrell
 
 	* Gnome2.pm: added IO::Scalar (needed for Gtk2::PodViewer)

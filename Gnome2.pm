@@ -1,7 +1,7 @@
-# $Id: Gnome2.pm,v 1.4 2003/11/10 01:07:05 jodrell Exp $
+# $Id: Gnome2.pm,v 1.6 2003/12/01 09:53:14 jodrell Exp $
 package Bundle::Gnome2;
 
-$VERSION = '0.01';
+$VERSION = '0.03';
 
 __END__
 
@@ -15,27 +15,35 @@ C<perl -MCPAN -e 'install Bundle::Gnome2'>
 
 =head1 CONTENTS
 
-ExtUtils::Depends
+ExtUtils::Depends		- Easily build XS extensions that depend on XS extensions
 
-ExtUtils::PkgConfig
+ExtUtils::PkgConfig		- simplistic interface to pkg-config
 
-Glib
+IO::Scalar			- IO:: interface for reading/writing a scalar
 
-Gtk2
+Glib				- Perl wrappers for the GLib utility and Object libraries
 
-Gnome2
+Gtk2				- Perl interface to the 2.x series of the Gimp Toolkit library
 
-Gnome2::Canvas
+Gtk2::GladeXML			- Perl wrappers for the Gtk2::GladeXML utilities
 
-Gnome2::Wnck
+Gtk2::PodViewer			- a Gtk2 widget for displaying Plain old Documentation (POD)
 
-Gtk2::GladeXML
+Gtk2::Spell			- Bindings for GtkSpell with Gtk2
 
-Gtk2::PodViewer
+Gtk2::TrayIcon			- Perl interface to the EggTrayIcon library
 
-Gtk2::Spell
+Gnome2				- Perl interface to the 2.x series of the GNOME libraries
 
-IO::Scalar
+Gnome2::Canvas			- Perl interface to the Gnome Canvas
+
+Gnome2::GConf			- Perl wrappers for the GConf configuration engine
+
+Gnome2::Print			- Perl wrappers for the Gnome Print utilities
+
+Gnome2::Vte			- Perl interface to the VTE library
+
+Gnome2::Wnck			- Perl interface to the Window Navigator Construction Kit
 
 =head1 DESCRIPTION
 
@@ -44,18 +52,6 @@ developing applications using the 2.x series of Gtk+ and Gnome. As well
 as the core toolkit libraries there are also extra widgets (like
 Gtk2::PodViewer) and bindings for libraries including gtkspell and
 libwnck.
-
-=head1 MODULES NOT INCLUDED
-
-The following modules are not included in this bundle, either because
-they have not been released onto CPAN or are not considered ready to
-use:
-
-Gnome2::GConf
-
-Gnome2::Print
-
-Gtk2::TrayIcon
 
 =head1 AUTHOR
 
