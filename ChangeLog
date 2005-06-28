@@ -1,3 +1,13 @@
+2005-06-28 23:57  jodrell
+
+	* Gnome2.pm: updated
+
+2005-06-28 23:56  jodrell
+
+	* Gnome2.pm: added Gtk2::Ex::Datasheet::DBI, Gtk2::Ex::Geo,
+	Gtk2::Ex::Graph::GD, Gtk2::Ex::ICal::Recur, Gtk2::Ex::TreeMap,
+	Gtk2::GladeXML::Simple
+
 2005-03-09 14:42  jodrell
 
 	* Gnome2.pm: added Gnome2::Dia.
