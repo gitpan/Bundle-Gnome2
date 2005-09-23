@@ -2,3 +2,4 @@ Makefile.PL
 Gnome2.pm
 README
 MANIFEST
+META.yml                                 Module meta-data (added by MakeMaker)

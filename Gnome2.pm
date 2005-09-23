@@ -1,7 +1,7 @@
-# $Id: Gnome2.pm,v 1.16 2005/06/28 22:57:47 jodrell Exp $
+# $Id: Gnome2.pm,v 1.17 2005/09/23 11:16:17 jodrell Exp $
 package Bundle::Gnome2;
 
-$VERSION = '0.09';
+$VERSION = '0.10';
 
 __END__
 
@@ -13,7 +13,7 @@ Bundle::Gnome2 - A bundle to install all the Gtk2 and Gnome2 modules.
 
 =head1 SYNOPSIS
 
-C<perl -MCPAN -e 'install Bundle::Gnome2'>
+C<# perl -MCPAN -e 'install Bundle::Gnome2'>
 
 =head1 CONTENTS
 
@@ -31,6 +31,8 @@ Gtk2				- Perl interface to the 2.x series of the Gimp Toolkit library
 
 Gtk2::GladeXML			- Perl wrappers for the Gtk2::GladeXML utilities
 
+Gtk2::GladeXML::Simple		- A clean object-oriented interface to Gtk2::GladeXML
+
 Gtk2::MozEmbed			- Perl interface to the Mozilla embedding widget
 
 Gtk2::PodViewer			- a Gtk2 widget for displaying Plain old Documentation (POD)
@@ -42,6 +44,8 @@ Gtk2::TrayIcon			- Perl interface to the EggTrayIcon library
 Gtk2::TrayManager		- Perl bindings for EggTrayManager
 
 Gtk::CV				- a fast gtk+ image viewer modeled after xv
+
+Gtk2::Ex::Carp			- Gtk2::Ex::Carp - GTK+ friendly die() and warn() functions.
 
 Gtk2::Ex::Datasheet::DBI	- A module that automates the process of setting up a treeview tied to a DBI connection.
 
@@ -63,6 +67,8 @@ Gtk2::Ex::Simple::Menu		- A simple interface to Gtk2's ItemFactory for creating 
 
 Gtk2::Ex::Simple::Tree		- A simple interface to Gtk2's complex MVC tree widget
 
+Gtk2::Ex::Threads::DBI		- Achieving *asynchronous DBI like* functionality for gtk2-perl applications using perl ithreads.
+
 Gtk2::Ex::TreeMap		- Implementation of TreeMap.
 
 Gtk2::Ex::TreeMaker		- A high level widget to represent a set of relational records in a hierarchical spreadsheet kinda display.
@@ -70,6 +76,8 @@ Gtk2::Ex::TreeMaker		- A high level widget to represent a set of relational reco
 Gtk2::Ex::Utils			- Extra Gtk2 Utilities for working with Gnome2/Gtk2 in Perl.
 
 Gtk2::Ex::VolumeButton		- widget to control volume and similar values
+
+Gtk2::Phat			- Perl interface to the Phat widget collection
 
 Gtk2Fu				- GTK2 Forked Ultimate, a powerful layer on top of Gtk2.
 
