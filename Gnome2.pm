@@ -1,7 +1,7 @@
-# $Id: Gnome2.pm,v 1.17 2005/09/23 11:16:17 jodrell Exp $
+# $Id: Gnome2.pm,v 1.19 2005/09/28 12:28:32 jodrell Exp $
 package Bundle::Gnome2;
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 __END__
 
@@ -21,21 +21,19 @@ ExtUtils::Depends		- Easily build XS extensions that depend on XS extensions
 
 ExtUtils::PkgConfig		- simplistic interface to pkg-config
 
-Locale::gettext			- message handling functions
-
 IO::Scalar			- IO:: interface for reading/writing a scalar
+
+Locale::gettext			- message handling functions
 
 Glib				- Perl wrappers for the GLib utility and Object libraries
 
 Gtk2				- Perl interface to the 2.x series of the Gimp Toolkit library
 
-Gtk2::GladeXML			- Perl wrappers for the Gtk2::GladeXML utilities
-
-Gtk2::GladeXML::Simple		- A clean object-oriented interface to Gtk2::GladeXML
-
-Gtk2::MozEmbed			- Perl interface to the Mozilla embedding widget
+Gtk2::Phat			- Perl interface to the Phat widget collection
 
 Gtk2::PodViewer			- a Gtk2 widget for displaying Plain old Documentation (POD)
+
+Gtk2::SourceView		- Perl wrappers for the GtkSourceView widget  
 
 Gtk2::Spell			- Bindings for GtkSpell with Gtk2
 
@@ -47,7 +45,13 @@ Gtk::CV				- a fast gtk+ image viewer modeled after xv
 
 Gtk2::Ex::Carp			- Gtk2::Ex::Carp - GTK+ friendly die() and warn() functions.
 
+Gtk2::Ex::ComboBox		- A simple ComboBox with multiple selection capabilities.
+
 Gtk2::Ex::Datasheet::DBI	- A module that automates the process of setting up a treeview tied to a DBI connection.
+
+Gtk2::Ex::DBI			- A module that automates the process of tying data from a DBI datasource to widgets on a Glade-generated form
+
+Gtk2::Ex::DBITableFilter	- A high level widget to present large amounts of data fetched using DBI. Also provides data filtering capabilities.
 
 Gtk2::Ex::Dialogs		- Useful tools for Gnome2/Gtk2 Perl GUI design.
 
@@ -69,33 +73,35 @@ Gtk2::Ex::Simple::Tree		- A simple interface to Gtk2's complex MVC tree widget
 
 Gtk2::Ex::Threads::DBI		- Achieving *asynchronous DBI like* functionality for gtk2-perl applications using perl ithreads.
 
-Gtk2::Ex::TreeMap		- Implementation of TreeMap.
-
 Gtk2::Ex::TreeMaker		- A high level widget to represent a set of relational records in a hierarchical spreadsheet kinda display.
+
+Gtk2::Ex::TreeMap		- Implementation of TreeMap.
 
 Gtk2::Ex::Utils			- Extra Gtk2 Utilities for working with Gnome2/Gtk2 in Perl.
 
 Gtk2::Ex::VolumeButton		- widget to control volume and similar values
 
-Gtk2::Phat			- Perl interface to the Phat widget collection
-
 Gtk2Fu				- GTK2 Forked Ultimate, a powerful layer on top of Gtk2.
+
+Gtk2::GladeXML			- Perl wrappers for the Gtk2::GladeXML utilities
 
 Gtk2::GladeXML::Simple		- A clean object-oriented interface to Gtk2::GladeXML
 
+Gtk2::MozEmbed			- Perl interface to the Mozilla embedding widget
+
 Gnome2::Canvas			- Perl interface to the Gnome Canvas
-
-Gnome2::VFS			- Perl interface to the 2.x series of the GNOME VFS library
-
-Gnome2				- Perl interface to the 2.x series of the GNOME libraries
 
 Gnome2::Dia			- Perl interface to the DiaCanvas2 library
 
 Gnome2::GConf			- Perl wrappers for the GConf configuration engine
 
+Gnome2				- Perl interface to the 2.x series of the GNOME libraries
+
 Gnome2::Print			- Perl wrappers for the Gnome Print utilities
 
 Gnome2::Rsvg			- Perl interface to the RSVG library
+
+Gnome2::VFS			- Perl interface to the 2.x series of the GNOME VFS library
 
 Gnome2::Vte			- Perl interface to the VTE library
 
