@@ -1,7 +1,7 @@
-# $Id: Gnome2.pm,v 1.19 2005/09/28 12:28:32 jodrell Exp $
+# $Id: Gnome2.pm,v 1.20 2005/10/04 12:16:43 jodrell Exp $
 package Bundle::Gnome2;
 
-$VERSION = '0.11';
+$VERSION = '0.12';
 
 __END__
 
@@ -31,8 +31,6 @@ Gtk2				- Perl interface to the 2.x series of the Gimp Toolkit library
 
 Gtk2::Phat			- Perl interface to the Phat widget collection
 
-Gtk2::PodViewer			- a Gtk2 widget for displaying Plain old Documentation (POD)
-
 Gtk2::SourceView		- Perl wrappers for the GtkSourceView widget  
 
 Gtk2::Spell			- Bindings for GtkSpell with Gtk2
@@ -43,7 +41,7 @@ Gtk2::TrayManager		- Perl bindings for EggTrayManager
 
 Gtk::CV				- a fast gtk+ image viewer modeled after xv
 
-Gtk2::Ex::Carp			- Gtk2::Ex::Carp - GTK+ friendly die() and warn() functions.
+Gtk2::Ex::Carp			- GTK+ friendly die() and warn() functions.
 
 Gtk2::Ex::ComboBox		- A simple ComboBox with multiple selection capabilities.
 
@@ -62,6 +60,10 @@ Gtk2::Ex::Geo			- A Perl Gtk2 widget for spatial data and a glue class for using
 Gtk2::Ex::Graph::GD		- A thin wrapper around the GD::Graph module.
 
 Gtk2::Ex::ICal::Recur		- A widget for scheduling a recurring set of events.
+
+Gtk2::Ex::PrintDialog		- a simple, pure Perl dialog for printing PostScript data in GTK+ applications.
+
+Gtk2::Ex::PodViewer		- a Gtk2 widget for displaying Plain old Documentation (POD)
 
 Gtk2::Ex::RecordsFilter		- A high level widget to browse reasonably large amounts of relational data and select a subset of records.
 
